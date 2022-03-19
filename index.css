@@ -1,0 +1,23 @@
+iframe {
+    width:100%;
+    height:100%;
+}
+.w-fitcontent {
+    width:fit-content;
+}
+
+#contentContainer,
+#formContainer{
+    transition: all 0.8s ease-in-out 0.1s;
+}
+.aspect-ratio4-2{
+    aspect-ratio: 4/2;
+}
+
+textarea:focus  {
+    transition: all 0.8s ease-in-out 0.1s;
+    transform: scaleX(1.5);
+
+ 
+  
+  }
